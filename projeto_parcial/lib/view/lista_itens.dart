@@ -126,6 +126,11 @@ class _ListaItensState extends State<ListaItens> {
                 ),
               ),
               SizedBox(height: 10),
+              Text(
+                  'Arraste a lista para excluir',
+                  style: TextStyle(fontSize: 20, color: Colors.white),
+                ),
+              SizedBox(height: 10),
               Expanded(
                 child: ListView.builder(
                   itemCount: widget.modelolistas.itens.length,
